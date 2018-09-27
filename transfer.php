@@ -14,7 +14,7 @@
     }
 ?>
     <form name='upload' method='post' action="<?php echo $BASE_URL; ?>">
-        <input type='text' id='url' name='url' size='128' /><br>
+        <input type='text' id='url' name='url' size='128' placeholder='Paste the url here' /><br>
         <input type="submit" value="Upload">
     </form>
 </body>
